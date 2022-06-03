@@ -1,5 +1,5 @@
 #akshit-g
-#import module
+#import modules
 from tkinter import *
 
 # initialize window
@@ -56,8 +56,8 @@ def madlib3():
 
 
 #GUI with button options
-Button(win, text= "The Photographer", font = "Arial", command = madlib1, bg = "white").place(x = 60, y = 120)
-Button(win, text= "Apple & Apple", font = "Arial", command = madlib3 , bg = "white").place(x = 70, y = 180)
-Button(win, text= "The Butterfly", font = "Arial", command = madlib2, bg = "white").place(x = 80, y = 240)
+Button(win, text="The Photographer", font ="Arial", command=madlib1, bg ="white").place(x = 60, y = 120)
+Button(win, text="Apple & Apple", font="Arial", command=madlib3 , bg="white").place(x = 70, y = 180)
+Button(win, text="The Butterfly", font="Arial", command=madlib2, bg="white").place(x = 80, y = 240)
 
 win.mainloop()
